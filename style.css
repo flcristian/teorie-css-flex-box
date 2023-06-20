@@ -116,28 +116,25 @@ header{
     margin-right: 20vw;
 
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .third-box-item{
     border: 1px solid black;
     height: 200px;
-    width: 200px;;
+    width: 300px;
     
     color: white;
 }
 
-.third-box-item-yellow{
-    background-color: yellow;
+.third-box-item-red{
+    background-color: rgb(212, 52, 41);
 }
-
-.third-box-item-purple{
-    background-color: purple;
-    width: 350px;
+.third-box-item-blue{
+    background-color: rgb(41, 129, 212);
 }
-
-.third-box-item-orangered{
-    background-color: orangered;
+.third-box-item-green{
+    background-color: rgb(41, 212, 92);
 }
 
 /* FOURTH BOX */
@@ -153,27 +150,28 @@ header{
     margin-right: 20vw;
 
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .fourth-box-item{
     border: 1px solid black;
     height: 200px;
-    width: 250px;;
+    width: 200px;;
     
     color: white;
 }
 
-.fourth-box-item-black{
-    background-color: black;
+.fourth-box-item-yellow{
+    background-color: yellow;
 }
 
-.fourth-box-item-darkgrey{
-    background-color: rgb(41, 41, 41);
+.fourth-box-item-purple{
+    background-color: purple;
+    width: 350px;
 }
 
-.fourth-box-item-lightgrey{
-    background-color: rgb(160, 160, 160);
+.fourth-box-item-orangered{
+    background-color: orangered;
 }
 
 /* FIFTH BOX */
@@ -189,7 +187,7 @@ header{
     margin-right: 20vw;
 
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .fifth-box-item{
@@ -221,6 +219,42 @@ header{
 .sixth-box-container{
     border: 2px dotted;
     display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.sixth-box-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;;
+    
+    color: white;
+}
+
+.sixth-box-item-black{
+    background-color: black;
+}
+
+.sixth-box-item-darkgrey{
+    background-color: rgb(41, 41, 41);
+}
+
+.sixth-box-item-lightgrey{
+    background-color: rgb(160, 160, 160);
+}
+
+/* SEVENTH BOX */
+
+.seventh-box-title{
+    margin-top: 10vh;
+}
+
+.seventh-box-container{
+    border: 2px dotted;
+    display: flex;
     flex-direction: column;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -233,7 +267,7 @@ header{
     justify-content: space-around;
 }
 
-.sixth-box-item{
+.seventh-box-item{
     border: 1px solid black;
     height: 200px;
     width: 400px;
@@ -241,19 +275,19 @@ header{
     color: white;
 }
 
-.sixth-box-item-red{
+.seventh-box-item-red{
     background-color: rgb(209, 80, 80);
 }
 
-.sixth-box-item-orange{
+.seventh-box-item-orange{
     background-color: rgb(224, 101, 44);
 }
 
-.sixth-box-item-yellow{
+.seventh-box-item-yellow{
     background-color: rgb(228, 195, 51);
 }
 
-.sixth-box-item-blue{
+.seventh-box-item-blue{
     background-color: rgb(60, 136, 236);
 }
 
