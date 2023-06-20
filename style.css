@@ -1,0 +1,262 @@
+*{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+header{
+    margin-top: 15vh;
+}
+
+/* FIRST BOX */
+
+.first-box-container{
+    border: 2px dotted;
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    flex-wrap: wrap;
+}
+
+.first-box-item{
+    border: 1px solid black;
+    height: 200px;
+    flex: 1;
+    
+    color: white;
+}
+
+.first-break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.first-box-item-red{
+    background-color: rgb(212, 52, 41);
+}
+.first-box-item-blue{
+    background-color: rgb(41, 129, 212);
+}
+.first-box-item-green{
+    background-color: rgb(41, 212, 92);
+}
+
+.first-box-item-yellow{
+    background-color: yellow;
+    flex: 1;
+}
+
+.first-box-item-purple{
+    background-color: purple;
+    flex: 2;
+}
+
+.first-box-item-orangered{
+    background-color: orangered;
+    flex: 1;
+}
+
+.first-box-item-black{
+    background-color: black;
+    flex: 3;
+}
+
+.first-box-item-darkgrey{
+    background-color: rgb(41, 41, 41);
+}
+
+.first-box-item-lightgrey{
+    background-color: rgb(160, 160, 160);
+}
+
+/* SECOND BOX */
+
+.second-box-title{
+    margin-top: 10vh;
+}
+
+.second-box-container{
+    border: 2px dotted;
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.second-box-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    
+    color: white;
+}
+
+.second-box-item-red{
+    background-color: rgb(212, 52, 41);
+}
+.second-box-item-blue{
+    background-color: rgb(41, 129, 212);
+}
+.second-box-item-green{
+    background-color: rgb(41, 212, 92);
+}
+
+/* THIRD BOX */
+
+.third-box-title{
+    margin-top: 10vh;
+}
+
+.third-box-container{
+    border: 2px dotted;
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.third-box-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;;
+    
+    color: white;
+}
+
+.third-box-item-yellow{
+    background-color: yellow;
+}
+
+.third-box-item-purple{
+    background-color: purple;
+    width: 350px;
+}
+
+.third-box-item-orangered{
+    background-color: orangered;
+}
+
+/* FOURTH BOX */
+
+.fourth-box-title{
+    margin-top: 10vh;
+}
+
+.fourth-box-container{
+    border: 2px dotted;
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.fourth-box-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;;
+    
+    color: white;
+}
+
+.fourth-box-item-black{
+    background-color: black;
+}
+
+.fourth-box-item-darkgrey{
+    background-color: rgb(41, 41, 41);
+}
+
+.fourth-box-item-lightgrey{
+    background-color: rgb(160, 160, 160);
+}
+
+/* FIFTH BOX */
+
+.fifth-box-title{
+    margin-top: 10vh;
+}
+
+.fifth-box-container{
+    border: 2px dotted;
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.fifth-box-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;;
+    
+    color: white;
+}
+
+.fifth-box-item-black{
+    background-color: black;
+}
+
+.fifth-box-item-darkgrey{
+    background-color: rgb(41, 41, 41);
+}
+
+.fifth-box-item-lightgrey{
+    background-color: rgb(160, 160, 160);
+}
+
+/* SIXTH BOX */
+
+.sixth-box-title{
+    margin-top: 10vh;
+}
+
+.sixth-box-container{
+    border: 2px dotted;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 1000px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sixth-box-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+    
+    color: white;
+}
+
+.sixth-box-item-red{
+    background-color: rgb(209, 80, 80);
+}
+
+.sixth-box-item-orange{
+    background-color: rgb(224, 101, 44);
+}
+
+.sixth-box-item-yellow{
+    background-color: rgb(228, 195, 51);
+}
+
+.sixth-box-item-blue{
+    background-color: rgb(60, 136, 236);
+}
+
+.space{
+    margin-bottom: 20vh;
+}
